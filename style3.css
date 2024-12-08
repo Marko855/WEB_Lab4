@@ -1,0 +1,15 @@
+h1 {
+    font-family: 'Courier New', Courier, monospace;
+    animation: fade-in 3s ease-in-out infinite alternate;
+}
+
+@keyframes fade-in {
+    from {
+        color: darkblue;
+        opacity: 0.5;
+    }
+    to {
+        color: darkgreen;
+        opacity: 1;
+    }
+}
